@@ -54,8 +54,6 @@
             this.cutToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.copyToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.pasteToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.helpToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.menuEditor = new System.Windows.Forms.ToolStrip();
             this.insertImageStripButton = new System.Windows.Forms.ToolStripButton();
             this.menuEditor.SuspendLayout();
@@ -268,21 +266,6 @@
             this.pasteToolStripButton.Text = "Copiar";
             this.pasteToolStripButton.Click += new System.EventHandler(this.pasteToolStripButton_Click);
             // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // helpToolStripButton
-            // 
-            this.helpToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.helpToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("helpToolStripButton.Image")));
-            this.helpToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.helpToolStripButton.Name = "helpToolStripButton";
-            this.helpToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.helpToolStripButton.Text = "Ajuda";
-            this.helpToolStripButton.Click += new System.EventHandler(this.helpToolStripButton_Click);
-            // 
             // menuEditor
             // 
             this.menuEditor.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -291,24 +274,22 @@
             this.saveToolStripButton,
             this.printToolStripButton,
             this.toolStripSeparator3,
+            this.cutToolStripButton,
+            this.copyToolStripButton,
+            this.pasteToolStripButton,
+            this.toolStripSeparator,
             this.negritoStripButton,
             this.italicoStripButton,
             this.sublinhadoStripButton,
-            this.corFonteStripButton,
-            this.insertImageStripButton,
-            this.FonteStripComboBox,
-            this.tamanhoFonteStripComboBox,
-            this.toolStripSeparator2,
             this.alinhaEsquerdaStripButton,
             this.CentralizadoStripButton,
             this.alinhaDireitaStripButton,
             this.JustificadoStripButton,
-            this.toolStripSeparator,
-            this.cutToolStripButton,
-            this.copyToolStripButton,
-            this.pasteToolStripButton,
-            this.toolStripSeparator1,
-            this.helpToolStripButton});
+            this.toolStripSeparator2,
+            this.corFonteStripButton,
+            this.insertImageStripButton,
+            this.FonteStripComboBox,
+            this.tamanhoFonteStripComboBox});
             this.menuEditor.Location = new System.Drawing.Point(0, 0);
             this.menuEditor.Name = "menuEditor";
             this.menuEditor.Size = new System.Drawing.Size(784, 25);
@@ -368,8 +349,6 @@
         private System.Windows.Forms.ToolStripButton cutToolStripButton;
         private System.Windows.Forms.ToolStripButton copyToolStripButton;
         private System.Windows.Forms.ToolStripButton pasteToolStripButton;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton helpToolStripButton;
         private System.Windows.Forms.ToolStrip menuEditor;
         private System.Windows.Forms.ToolStripButton insertImageStripButton;
     }

@@ -139,7 +139,7 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
             InitializeComponent();
             wbEditorHTML.DocumentCompleted += delegate
             { wbEditorHTML.Document.DomDocument.GetType().GetProperty("designMode").SetValue(wbEditorHTML.Document.DomDocument, "On", null); };
-            // or wbEditorHTML.Document.Body.SetAttribute("contenteditable", "true");
+            // ou wbEditorHTML.Document.Body.SetAttribute("contenteditable", "true");
             wbEditorHTML.Navigate("about:blank");
         }
 
@@ -231,11 +231,6 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
         private void tamanhoFonteStripComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             executarComando("FontSize", tamanhoFonteStripComboBox.SelectedIndex);
-        }
-
-        private void helpToolStripButton_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void pasteToolStripButton_Click(object sender, EventArgs e)
