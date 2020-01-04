@@ -137,15 +137,29 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
         public fmEditorHTML()
         {
             InitializeComponent();
+            //22/09/2019 -  Adicionar ao evento DocumentComplent setando a propiedade DesignMode=On
             wbEditorHTML.DocumentCompleted += delegate
-            { wbEditorHTML.Document.DomDocument.GetType().GetProperty("designMode").SetValue(wbEditorHTML.Document.DomDocument, "On", null); };
-            // ou wbEditorHTML.Document.Body.SetAttribute("contenteditable", "true");
+            {
+                setWebEditor(true);
+                // outra forma wbEditorHTML.Document.Body.SetAttribute("contenteditable", "true");
+            };
+
             wbEditorHTML.Navigate("about:blank");
+        }
+
+        public void setWebEditor(bool isActive)
+        {
+            if (wbEditorHTML.Document.DomDocument != null)
+            {
+                wbEditorHTML.Document.DomDocument.GetType().GetProperty("designMode").SetValue(wbEditorHTML.Document.DomDocument, (isActive ? "On" : "Off"), null);
+            }
         }
 
         private void fmMain_Load(object sender, EventArgs e)
         {
             popularFontes();
+            tamanhoFonteStripComboBox.SelectedIndex = 3;
+            FonteStripComboBox.SelectedIndex = -1;
         }
 
         private void popularFontes()
@@ -161,6 +175,7 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
 
         private void newToolStripButton_Click(object sender, EventArgs e)
         {
+            setWebEditor(false);
             wbEditorHTML.Navigate("about:blank");
         }
 
@@ -276,6 +291,7 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
 
             if (openFileDialog.FileName != "")
             {
+                setWebEditor(false);
                 wbEditorHTML.Navigate(openFileDialog.FileName);
             }
         }
