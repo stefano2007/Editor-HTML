@@ -7,4 +7,4 @@ Editor HTML Desktop Windows em C# com Web Browser
 * Colar conteúdos já formatados por exemplo Word ou Paginas WEB;
 * Imprimir HTML;
 * Salvar/Exportar HTML.
-<img src="https://github.com/stefano2007/Editor-HTML/Exemplo editor HMLT.png" />
+<img src="/stefano2007/Editor-HTML/blob/master/Exemplo%20editor%20HMLT.png" />
