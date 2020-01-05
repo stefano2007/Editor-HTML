@@ -15,95 +15,95 @@ using System.Windows.Forms;
 namespace EditorHTML
 {
     /*
-     2D-Position	IDM_2D_POSITION (0x095A)
-AbsolutePosition	IDM_ABSOLUTE_POSITION (0x095D)
-AutoDetect	IDM_AUTODETECT (0x0919)
-BackColor	IDM_BACKCOLOR (0x0033)
-BackgroundImageCache	IDM_BACKGROUNDIMAGECACHE (0x097E)
-BlockDirLTR	IDM_BLOCKDIRLTR (0x0930)
-BlockDirRTL	IDM_BLOCKDIRRTL (0x0931)
-Bold	IDM_BOLD (0x0034)
-BrowseMode	IDM_BROWSEMODE (0x084E)
-ClearAuthenticationCache	IDM_CLEARAUTHENTICATIONCACHE (0x3A9B)
-Copy	IDM_COPY (0x000F)
-CreateBookmark	IDM_BOOKMARK (0x084B)
-CreateLink	IDM_HYPERLINK (0x084C)
-Cut	IDM_CUT (0x0010)
-Delete	IDM_DELETE (0x0011)
-DirLTR	IDM_DIRLTR (0x092E)
-DirRTL	IDM_DIRRTL (0x092F)
-EditMode	IDM_EDITMODE (0x084F)
-FontName	IDM_FONTNAME (0x0012)
-FontSize	IDM_FONTSIZE (0x0013)
-ForeColor	IDM_FORECOLOR (0x0037)
-FormatBlock	IDM_BLOCKFMT (0x08BA)
-GetBlockFormats	IDM_GETBLOCKFMTS (0x08B9)
-Indent	IDM_INDENT (0x088A)
-InlineDirLTR	IDM_INLINEDIRLTR (0x0932)
-InlineDirRTL	IDM_INLINEDIRRTL (0x0933)
-InsertButton	IDM_BUTTON (0x0877)
-InsertFieldset	IDM_INSFIELDSET (0x0847)
-InsertHorizontalRule	IDM_HORIZONTALLINE (0x0866)
-InsertIFrame	IDM_IFRAME (0x086E)
-InsertImage	IDM_IMAGE (0x0878)
-InsertInputButton	IDM_INSINPUTBUTTON (0x0843)
-InsertInputCheckbox	IDM_CHECKBOX (0x0873)
-InsertInputFileUpload	IDM_INSINPUTUPLOAD (0x0846)
-InsertInputHidden	IDM_INSINPUTHIDDEN (0x0908)
-InsertInputImage	IDM_INSINPUTIMAGE (0x0842)
-InsertInputPassword	IDM_INSINPUTPASSWORD (0x0909)
-InsertInputRadio	IDM_RADIOBUTTON (0x0874)
-InsertInputReset	IDM_INSINPUTRESET (0x0844)
-InsertInputSubmit	IDM_INSINPUTSUBMIT (0x0845)
-InsertInputText	IDM_TEXTBOX (0x0871)
-InsertMarquee	IDM_MARQUEE (0x0886)
-InsertOrderedList	IDM_ORDERLIST (0x0888)
-InsertParagraph	IDM_PARAGRAPH (0x0884)
-InsertSelectDropdown	IDM_DROPDOWNBOX (0x0875)
-InsertSelectListbox	IDM_LISTBOX (0x0876)
-InsertTextArea	IDM_TEXTAREA (0x0872)
-InsertUnorderedList	IDM_UNORDERLIST (0x0889)
-Italic	IDM_ITALIC (0x0038)
-JustifyCenter	IDM_JUSTIFYCENTER (0x0039)
-JustifyFull	IDM_JUSTIFYFULL (0x0032)
-JustifyLeft	IDM_JUSTIFYLEFT (0x003B)
-JustifyNone	IDM_JUSTIFYNONE (0x005E)
-JustifyRight	IDM_JUSTIFYRIGHT (0x003C)
-KeepSelection	IDM_KEEPSELECTION (0x096A)
-LiveResize	IDM_LIVERESIZE (0x095E)
-MultipleSelection	IDM_MULTIPLESELECTION (0x0959)
-Open	IDM_OPEN (0x07D0)
-Outdent	IDM_OUTDENT (0x088B)
-OverWrite	IDM_OVERWRITE (0x090A)
-Paste	IDM_PASTE (0x001A)
-PlayImage	IDM_DYNSRCPLAY (0x08DF)
-Print	IDM_EXECPRINT (0x005D)
-Redo	IDM_REDO (0x001D)
-Refresh	IDM_REFRESH (0x08FC)
-RemoveFormat	IDM_REMOVEFORMAT (0x08B6)
-RemoveParaFormat	IDM_REMOVEPARAFORMAT (0x08CD)
-RespectVisibilityInDesign	IDM_RESPECTVISIBILITY_INDESIGN (0x0965)
-SaveAs	IDM_SAVEAS (0x0047)
-SelectAll	IDM_SELECTALL (0x001F)
-SizeToControl	IDM_SIZETOCONTROL (0x0023)
-SizeToControlHeight	IDM_SIZETOCONTROLHEIGHT (0x0024)
-SizeToControlWidth	IDM_SIZETOCONTROLWIDTH (0x0025)
-Stop	IDM_STOP (0x085A)
-StopImage	IDM_DYNSRCSTOP (0x08E0)
-StrikeThrough	IDM_STRIKETHROUGH (0x005B)
-Subscript	IDM_SUBSCRIPT (0x08C7)
-Superscript	IDM_SUPERSCRIPT (0x08C8)
-TristateBold	IDM_TRISTATEBOLD (0x005F)
-TristateItalic	IDM_TRISTATEITALIC (0x0060)
-TristateUnderline	IDM_TRISTATEUNDERLINE (0x0061)
-UIOutdent	IDM_UI_OUTDENT (0x0967)
-UnBookmark	IDM_UNBOOKMARK (0x0850)
-Underline	IDM_UNDERLINE (0x003F)
-Undo	IDM_UNDO (0x002B)
-UnloadDocument	IDM_UNLOADDOCUMENT (0x096B)
-Unlink	IDM_UNLINK (0x084D)
-Unselect	IDM_CLEARSELECTION (0x07D7)         
-         */
+    2D-Position	IDM_2D_POSITION (0x095A)
+    AbsolutePosition	IDM_ABSOLUTE_POSITION (0x095D)
+    AutoDetect	IDM_AUTODETECT (0x0919)
+    BackColor	IDM_BACKCOLOR (0x0033)
+    BackgroundImageCache	IDM_BACKGROUNDIMAGECACHE (0x097E)
+    BlockDirLTR	IDM_BLOCKDIRLTR (0x0930)
+    BlockDirRTL	IDM_BLOCKDIRRTL (0x0931)
+    Bold	IDM_BOLD (0x0034)
+    BrowseMode	IDM_BROWSEMODE (0x084E)
+    ClearAuthenticationCache	IDM_CLEARAUTHENTICATIONCACHE (0x3A9B)
+    Copy	IDM_COPY (0x000F)
+    CreateBookmark	IDM_BOOKMARK (0x084B)
+    CreateLink	IDM_HYPERLINK (0x084C)
+    Cut	IDM_CUT (0x0010)
+    Delete	IDM_DELETE (0x0011)
+    DirLTR	IDM_DIRLTR (0x092E)
+    DirRTL	IDM_DIRRTL (0x092F)
+    EditMode	IDM_EDITMODE (0x084F)
+    FontName	IDM_FONTNAME (0x0012)
+    FontSize	IDM_FONTSIZE (0x0013)
+    ForeColor	IDM_FORECOLOR (0x0037)
+    FormatBlock	IDM_BLOCKFMT (0x08BA)
+    GetBlockFormats	IDM_GETBLOCKFMTS (0x08B9)
+    Indent	IDM_INDENT (0x088A)
+    InlineDirLTR	IDM_INLINEDIRLTR (0x0932)
+    InlineDirRTL	IDM_INLINEDIRRTL (0x0933)
+    InsertButton	IDM_BUTTON (0x0877)
+    InsertFieldset	IDM_INSFIELDSET (0x0847)
+    InsertHorizontalRule	IDM_HORIZONTALLINE (0x0866)
+    InsertIFrame	IDM_IFRAME (0x086E)
+    InsertImage	IDM_IMAGE (0x0878)
+    InsertInputButton	IDM_INSINPUTBUTTON (0x0843)
+    InsertInputCheckbox	IDM_CHECKBOX (0x0873)
+    InsertInputFileUpload	IDM_INSINPUTUPLOAD (0x0846)
+    InsertInputHidden	IDM_INSINPUTHIDDEN (0x0908)
+    InsertInputImage	IDM_INSINPUTIMAGE (0x0842)
+    InsertInputPassword	IDM_INSINPUTPASSWORD (0x0909)
+    InsertInputRadio	IDM_RADIOBUTTON (0x0874)
+    InsertInputReset	IDM_INSINPUTRESET (0x0844)
+    InsertInputSubmit	IDM_INSINPUTSUBMIT (0x0845)
+    InsertInputText	IDM_TEXTBOX (0x0871)
+    InsertMarquee	IDM_MARQUEE (0x0886)
+    InsertOrderedList	IDM_ORDERLIST (0x0888)
+    InsertParagraph	IDM_PARAGRAPH (0x0884)
+    InsertSelectDropdown	IDM_DROPDOWNBOX (0x0875)
+    InsertSelectListbox	IDM_LISTBOX (0x0876)
+    InsertTextArea	IDM_TEXTAREA (0x0872)
+    InsertUnorderedList	IDM_UNORDERLIST (0x0889)
+    Italic	IDM_ITALIC (0x0038)
+    JustifyCenter	IDM_JUSTIFYCENTER (0x0039)
+    JustifyFull	IDM_JUSTIFYFULL (0x0032)
+    JustifyLeft	IDM_JUSTIFYLEFT (0x003B)
+    JustifyNone	IDM_JUSTIFYNONE (0x005E)
+    JustifyRight	IDM_JUSTIFYRIGHT (0x003C)
+    KeepSelection	IDM_KEEPSELECTION (0x096A)
+    LiveResize	IDM_LIVERESIZE (0x095E)
+    MultipleSelection	IDM_MULTIPLESELECTION (0x0959)
+    Open	IDM_OPEN (0x07D0)
+    Outdent	IDM_OUTDENT (0x088B)
+    OverWrite	IDM_OVERWRITE (0x090A)
+    Paste	IDM_PASTE (0x001A)
+    PlayImage	IDM_DYNSRCPLAY (0x08DF)
+    Print	IDM_EXECPRINT (0x005D)
+    Redo	IDM_REDO (0x001D)
+    Refresh	IDM_REFRESH (0x08FC)
+    RemoveFormat	IDM_REMOVEFORMAT (0x08B6)
+    RemoveParaFormat	IDM_REMOVEPARAFORMAT (0x08CD)
+    RespectVisibilityInDesign	IDM_RESPECTVISIBILITY_INDESIGN (0x0965)
+    SaveAs	IDM_SAVEAS (0x0047)
+    SelectAll	IDM_SELECTALL (0x001F)
+    SizeToControl	IDM_SIZETOCONTROL (0x0023)
+    SizeToControlHeight	IDM_SIZETOCONTROLHEIGHT (0x0024)
+    SizeToControlWidth	IDM_SIZETOCONTROLWIDTH (0x0025)
+    Stop	IDM_STOP (0x085A)
+    StopImage	IDM_DYNSRCSTOP (0x08E0)
+    StrikeThrough	IDM_STRIKETHROUGH (0x005B)
+    Subscript	IDM_SUBSCRIPT (0x08C7)
+    Superscript	IDM_SUPERSCRIPT (0x08C8)
+    TristateBold	IDM_TRISTATEBOLD (0x005F)
+    TristateItalic	IDM_TRISTATEITALIC (0x0060)
+    TristateUnderline	IDM_TRISTATEUNDERLINE (0x0061)
+    UIOutdent	IDM_UI_OUTDENT (0x0967)
+    UnBookmark	IDM_UNBOOKMARK (0x0850)
+    Underline	IDM_UNDERLINE (0x003F)
+    Undo	IDM_UNDO (0x002B)
+    UnloadDocument	IDM_UNLOADDOCUMENT (0x096B)
+    Unlink	IDM_UNLINK (0x084D)
+    Unselect	IDM_CLEARSELECTION (0x07D7)         
+    */
     enum EventosIE
     {
         WM_COMMAND = 0x0111,
@@ -128,7 +128,6 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
     {
         [DllImport("User32.dll")]
         public static extern int SendMessage(IntPtr hWnd, int uMsg, int wParam, string lParam);
-
         [DllImport("user32.dll", SetLastError = true)]
         static extern IntPtr GetWindow(IntPtr hWnd, uint uCmd);
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
@@ -141,9 +140,7 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
             wbEditorHTML.DocumentCompleted += delegate
             {
                 setWebEditor(true);
-                // outra forma wbEditorHTML.Document.Body.SetAttribute("contenteditable", "true");
             };
-
             wbEditorHTML.Navigate("about:blank");
         }
 
@@ -172,7 +169,7 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
                 FonteStripComboBox.Items.Add(item.Name);
             }
         }
-
+        #region Botões menu
         private void newToolStripButton_Click(object sender, EventArgs e)
         {
             setWebEditor(false);
@@ -199,30 +196,7 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
             }
         }
 
-        public void executarComando(string comando, object obj = null)
-        {
-            wbEditorHTML.Document.ExecCommand(comando, false, obj);
-        }
-
-        public void enviarMensagem(int command)
-        {
-            IntPtr handle = GetIEHandle();
-            SendMessage(handle, (int)EventosIE.WM_COMMAND, command, "0");
-        }
-
-        public IntPtr GetIEHandle()
-        {
-            IntPtr handle = wbEditorHTML.Handle;
-            StringBuilder className = new StringBuilder(100);
-            int i = 0;
-            while (className.ToString() != "Internet Explorer_Server") // your mileage may vary with this classname
-            {
-                handle = GetWindow(handle, 5); // 5 == child
-                GetClassName(handle, className, className.Capacity);
-                i++;
-            }
-            return handle;
-        }
+        
 
         private void negritoStripButton_Click(object sender, EventArgs e)
         {
@@ -295,20 +269,46 @@ Unselect	IDM_CLEARSELECTION (0x07D7)
                 wbEditorHTML.Navigate(openFileDialog.FileName);
             }
         }
-
-        private void wbEditorHTML_NewWindow(object sender, CancelEventArgs e)
-        {
-            //e.Cancel = true;
-        }
+        
 
         private void printToolStripButton_Click(object sender, EventArgs e)
         {
             wbEditorHTML.ShowPrintDialog();
         }
-
         private void insertImageStripButton_Click(object sender, EventArgs e)
         {
             enviarMensagem((int)EventosIE.IDM_IMAGEM);
         }
+        #endregion
+        private void wbEditorHTML_NewWindow(object sender, CancelEventArgs e)
+        {
+            e.Cancel = true;
+        }
+        
+        public void executarComando(string comando, object obj = null)
+        {
+            wbEditorHTML.Document.ExecCommand(comando, false, obj);
+        }
+
+        public void enviarMensagem(int command)
+        {
+            IntPtr handle = GetIEHandle();
+            SendMessage(handle, (int)EventosIE.WM_COMMAND, command, "0");
+        }
+
+        public IntPtr GetIEHandle()
+        {
+            IntPtr handle = wbEditorHTML.Handle;
+            StringBuilder className = new StringBuilder(100);
+            int i = 0;
+            while (className.ToString() != "Internet Explorer_Server") // your mileage may vary with this classname
+            {
+                handle = GetWindow(handle, 5); // 5 == child
+                GetClassName(handle, className, className.Capacity);
+                i++;
+            }
+            return handle;
+        }
+
     }//class
 }//namespace

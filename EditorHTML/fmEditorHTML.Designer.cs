@@ -65,7 +65,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.wbEditorHTML.Location = new System.Drawing.Point(0, 31);
-            this.wbEditorHTML.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.wbEditorHTML.Margin = new System.Windows.Forms.Padding(4);
             this.wbEditorHTML.MinimumSize = new System.Drawing.Size(27, 25);
             this.wbEditorHTML.Name = "wbEditorHTML";
             this.wbEditorHTML.Size = new System.Drawing.Size(1045, 690);
@@ -102,7 +102,7 @@
             this.saveToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripButton.Image")));
             this.saveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripButton.Name = "saveToolStripButton";
-            this.saveToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.saveToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.saveToolStripButton.Text = "Salvar como";
             this.saveToolStripButton.Click += new System.EventHandler(this.saveToolStripButton_Click);
             // 
@@ -314,7 +314,7 @@
             this.ClientSize = new System.Drawing.Size(1045, 690);
             this.Controls.Add(this.menuEditor);
             this.Controls.Add(this.wbEditorHTML);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "fmEditorHTML";
             this.Text = "Editor HTML";
             this.Load += new System.EventHandler(this.fmMain_Load);
