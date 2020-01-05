@@ -82,7 +82,7 @@
             this.newToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripButton.Image")));
             this.newToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newToolStripButton.Name = "newToolStripButton";
-            this.newToolStripButton.Size = new System.Drawing.Size(29, 24);
+            this.newToolStripButton.Size = new System.Drawing.Size(29, 28);
             this.newToolStripButton.Text = "Novo";
             this.newToolStripButton.Click += new System.EventHandler(this.newToolStripButton_Click);
             // 
@@ -294,7 +294,7 @@
             this.tamanhoFonteStripComboBox});
             this.menuEditor.Location = new System.Drawing.Point(0, 0);
             this.menuEditor.Name = "menuEditor";
-            this.menuEditor.Size = new System.Drawing.Size(1045, 27);
+            this.menuEditor.Size = new System.Drawing.Size(1045, 31);
             this.menuEditor.TabIndex = 1;
             // 
             // insertImageStripButton
