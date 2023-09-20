@@ -1,15 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
-using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EditorHTML
@@ -146,9 +140,9 @@ namespace EditorHTML
 
         public void setWebEditor(bool isActive)
         {
-            if (wbEditorHTML.Document.DomDocument != null)
-            {
-                wbEditorHTML.Document.DomDocument.GetType().GetProperty("designMode").SetValue(wbEditorHTML.Document.DomDocument, (isActive ? "On" : "Off"), null);
+            if (wbEditorHTML.Document.Body != null)
+            {                
+                wbEditorHTML.Document.Body.SetAttribute("contentEditable", isActive ? "true" : "false");
             }
         }
 
